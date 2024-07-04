@@ -1,0 +1,54 @@
+.container {
+  max-width: 1170px !important;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.bgColor {
+  background: #190d3f;
+}
+
+.bg_gradient {
+  background: linear-gradient(to right, #474ef8, #f4c5ca);
+}
+
+.jca_bg {
+  background: linear-gradient(
+    to right,
+    rgba(68, 77, 249, 0.1) 0%,
+    rgba(245, 198, 202, 0.1) 100%
+  );
+}
+
+.bgl {
+  background: linear-gradient(to right, #474ef8, #f4c5ca);
+}
+
+/* src/styles.css */
+.gradient-border {
+  position: relative;
+  z-index: 1;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  top: -1px; /* Adjust based on your border width */
+  left: -1px; /* Adjust based on your border width */
+  right: -1px; /* Adjust based on your border width */
+  bottom: -1px; /* Adjust based on your border width */
+  background: linear-gradient(
+    90deg,
+    #444cf9,
+    #f5c6ca
+  ); /* Adjust gradient colors */
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.gradient-border > .content {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, rgb(54 22 115), rgb(98 64 104));
+}
