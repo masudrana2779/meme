@@ -5,11 +5,11 @@ import Nav from "../Nav/Nav";
 const Layouts = () => {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <div id="detail">
         <Outlet />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
