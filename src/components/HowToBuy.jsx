@@ -1,25 +1,26 @@
 import React from 'react';
+import xyz from './Images/xyz.png'; // Importing the PinkSale image
 
 const steps = [
   {
     title: 'Get a wallet',
     description: 'To get started, you’ll need a Solana-compatible wallet. We recommend using wallets such as Phantom, Sollet, or Solflare.',
-    icon: 'path-to-wallet-icon', // Replace with the actual path to the icon
+    icon: xyz, // Replace with the actual path to the icon
   },
   {
     title: 'Buy some Solana',
     description: 'Once your wallet is set up, add some Solana (SOL) to it. You can purchase SOL from exchanges like Binance, Coinbase, or Kraken.',
-    icon: 'path-to-solana-icon', // Replace with the actual path to the icon
+    icon: xyz, // Replace with the actual path to the icon
   },
   {
     title: 'Connect wallet to DEX',
     description: 'Visit Raydium and connect your Solana wallet. Look for the “Connect Wallet” button at the top right corner.',
-    icon: 'path-to-dex-icon', // Replace with the actual path to the icon
+    icon: xyz, // Replace with the actual path to the icon
   },
   {
     title: 'Buy BLNDR token',
     description: 'After connecting your wallet, search for the token with the CA and decide how much you want to buy.',
-    icon: 'path-to-blndr-icon', // Replace with the actual path to the icon
+    icon: xyz, // Replace with the actual path to the icon
   },
 ];
 

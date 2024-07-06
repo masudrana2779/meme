@@ -4,11 +4,14 @@ import Partners from "../../Partners";
 import HowToBuy from "../../HowToBuy";
 import RoadMap from "../../RoadMap";
 import Disclaimer from "../../Disclaimer";
+import HeaderSection from "../../HeaderSection ";
+ 
 
 const Home = () => {
   return (
     <>
       {/* <Banner /> */}
+    <HeaderSection />
      <Partners />
      <MainSection />
      <HowToBuy />

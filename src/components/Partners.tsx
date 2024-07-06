@@ -1,7 +1,7 @@
 import React from 'react';
 
 const partners = [
-  { name: 'Jupiter', logo: 'path-to-jupiter-logo' },
+  { name: 'Jupiter', logo: './a.png' },
   { name: 'Raydium', logo: 'path-to-raydium-logo' },
   { name: 'DEXScreener', logo: 'path-to-dexscreener-logo' },
   { name: 'PinkSale', logo: 'path-to-pinksale-logo' },

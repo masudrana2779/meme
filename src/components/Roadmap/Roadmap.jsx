@@ -1,4 +1,5 @@
 import { Element } from "react-scroll";
+import BlndrPic from './Images/BlndrPic.png'; // Importing the BLNDR image
 
 const Roadmap = () => {
   const roadmapData = [
@@ -8,11 +9,11 @@ const Roadmap = () => {
       listItems: [
         {
           list: "Launch JCAT on Solana: Begin as a meme token to attract initial interest and community support.",
-          icon: "/img/checked.svg",
+          icon: BlndrPic,
         },
         {
           list: "Presale and Airdrop: Conduct a transparent presale and distribute airdrops to early supporters.",
-          icon: "/img/checked.svg",
+          icon: BlndrPic,
         },
       ],
     },
@@ -71,7 +72,7 @@ const Roadmap = () => {
                     <li key={l} className="">
                       <div className="flex">
                         <div className="mr-4 min-w-[21px] mt-1">
-                          <img src={listItem.icon} alt="img" />
+                          <img src={BlndrPic} alt="img" />
                         </div>
                         <div className="roboto font-semibold text-white text-base leading-6">
                           {listItem.list}
