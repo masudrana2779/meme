@@ -15,7 +15,7 @@ body {
 @tailwind utilities;
 
 .tg {
-  background: linear-gradient(to right, #444cf9, #f5c6ca);
+  background: linear-gradient(to right, #ff31b6, #01bfff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

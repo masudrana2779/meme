@@ -1,6 +1,4 @@
 import { useState } from "react";
-import NavbarTopSocial from "./NavbarTopSocial";
-import { FaCat, FaDollarSign } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Nav = () => {
@@ -10,12 +8,11 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="bgColor">
+    <div className="">
       <nav className="">
-        <NavbarTopSocial />
         <div className="container max-w-[1170px] mx-auto flex justify-between items-center p-4">
           <div className="">
-            <Link to={"/"}>
+            <Link to={"/"} className="cursor-pointer">
               <img src="/img/logo.png" alt="logo" />
             </Link>
           </div>
@@ -27,53 +24,47 @@ const Nav = () => {
               duration={500}
               className="tg cursor-pointer"
             >
-              roadmap
+              Home
             </Link>
             <Link
               to="Tokenomics"
               spy={true}
               smooth={true}
               duration={500}
-              className="text-white cursor-pointer opacity-70 border-b pb-1"
+              className="text-white cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              to="Tokenomics"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white cursor-pointer"
             >
               tokenomics
             </Link>
             <Link
-              to="Partner"
+              to="Roadmap"
               spy={true}
               smooth={true}
               duration={500}
-              className="text-white cursor-pointer opacity-70 border-b pb-1"
+              className="text-white cursor-pointer"
             >
-              partners
+              roadmap
             </Link>
-            <Link href="#" className="tg cursor-pointer">
-              Chart
-            </Link>
-            <Link href="#" className="tg cursor-pointer">
-              Jcat Swap
-            </Link>
-            <Link href="#" className="tg cursor-pointer">
-              Jcat Academy
-            </Link>
-            <div className="flex space-x-2 items-center">
+            <div className="flex space-x-4 items-center">
               <Link
                 to={"/"}
-                className="text-white flex text-[18px] leading-[26px] font-medium  items-center space-x-2 py-2 px-5 rounded-full bg_gradient"
+                className="text-white text-center text-[18px] leading-[26px] font-medium py-2 px-5 rounded-full bg_gradient1 cursor-pointer w-[220px]"
               >
-                <span>
-                  <FaCat />
-                </span>
-                <span>game</span>
+                <span>BUY ON PINKSALE</span>
               </Link>
               <Link
                 to={"/"}
-                className="text-white flex text-[18px] leading-[26px] font-medium  items-center space-x-2 py-2 px-5 rounded-full bg_gradient"
+                className="text-white text-[18px] leading-[26px] font-medium  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px]"
               >
-                <span>
-                  <FaDollarSign />
-                </span>
-                <span>Buy here</span>
+                <span>BUY NOW</span>
               </Link>
             </div>
           </div>
@@ -109,53 +100,47 @@ const Nav = () => {
                 duration={500}
                 className="tg cursor-pointer"
               >
-                roadmap
+                Home
               </Link>
               <Link
                 to="Tokenomics"
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="text-white cursor-pointer opacity-70 border-b pb-1"
+                className="text-white cursor-pointer"
+              >
+                About
+              </Link>
+              <Link
+                to="Tokenomics"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="text-white cursor-pointer"
               >
                 tokenomics
               </Link>
               <Link
-                to="Partner"
+                to="Roadmap"
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="text-white cursor-pointer opacity-70 border-b pb-1"
+                className="text-white cursor-pointer"
               >
-                partners
-              </Link>
-              <Link href="#" className="tg cursor-pointer">
-                Chart
-              </Link>
-              <Link href="#" className="tg cursor-pointer">
-                Jcat Swap
-              </Link>
-              <Link href="#" className="tg cursor-pointer">
-                Jcat Academy
+                roadmap
               </Link>
               <div className="flex space-x-2 items-center">
                 <Link
                   to={"/"}
-                  className="text-white flex text-[18px] leading-[26px] font-medium  items-center space-x-2 py-2 px-5 rounded-full bg_gradient"
+                  className="text-white text-[18px] leading-[26px] font-medium  w-[220px] text-center py-2 px-5 rounded-full bg_gradient1"
                 >
-                  <span>
-                    <FaCat />
-                  </span>
-                  <span>game</span>
+                  <span>BUY ON PINKSALE</span>
                 </Link>
                 <Link
                   to={"/"}
-                  className="text-white flex text-[18px] leading-[26px] font-medium  items-center space-x-2 py-2 px-5 rounded-full bg_gradient"
+                  className="text-white text-[18px] leading-[26px] font-medium  text-center py-2 px-5 rounded-full bg_gradient w-[220px]"
                 >
-                  <span>
-                    <FaDollarSign />
-                  </span>
-                  <span>Buy here</span>
+                  <span>BUY NOW</span>
                 </Link>
               </div>
             </div>

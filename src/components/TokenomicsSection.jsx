@@ -1,25 +1,27 @@
-import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
-import 'chart.js/auto';
-
-const data = {
-  labels: ['Liquidity', 'Team', 'Staking/Marketing', 'Airdrop', 'Pre-Sale'],
-  datasets: [
-    {
-      data: [35, 10, 25, 10, 20],
-      backgroundColor: ['#4CAF50', '#FF9800', '#9C27B0', '#03A9F4', '#E91E63'],
-    },
-  ],
-};
-
 const TokenomicsSection = () => {
+  const copyData = "0x1234567890abcdef1234567890abcdef12345678";
+
   return (
-    <div className="py-12">
-      <h2 className="text-center text-3xl font-bold mb-8">TOKENOMICS</h2>
-      <div className="w-full max-w-lg mx-auto">
-        <Doughnut data={data} />
+    <div className="py-12 container  md:pb-40 pb-10">
+      <h2 className="text-center text-3xl font-bold mb-16 text-white">
+        TOKENOMICS
+      </h2>
+      <div className="text-center mb-4 md:mb-20">
+        <img src="/img/gr.png" className="w-full max-w-[1279px]" alt="" />
       </div>
-      <p className="text-center mt-4">Contract Address: 0x1234567890abcdef1234567890abcdef12345678</p>
+      <div className="bgd rounded-full p-[1px] mx-auto text-white w-max">
+        <div className="flex rounded-full px-10 py-2 bgdi items-center justify-center">
+          <div className=" pr-4 border-r-2 mr-2">{copyData}</div>
+          <div
+            className="cursor-pointer"
+            onClick={() => {
+              navigator.clipboard.writeText(copyData);
+            }}
+          >
+            <img src="/img/copy.png" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

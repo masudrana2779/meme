@@ -1,16 +1,28 @@
 .container {
-  max-width: 1170px !important;
+  max-width: 1350px !important;
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
 }
 
 .bgColor {
-  background: #190d3f;
+  background: #0a131e;
 }
 
 .bg_gradient {
-  background: linear-gradient(to right, #474ef8, #f4c5ca);
+  background: linear-gradient(to right, #00fff0, #d8ee34);
+}
+
+.bg_gradient1 {
+  background: linear-gradient(to right, #fc52b5, #34eee3);
+}
+
+.bg_gradientB {
+  background: linear-gradient(to top, #161b22, #273240);
+}
+
+.bgt {
+  background-position: top -1px center;
 }
 
 .jca_bg {
@@ -23,6 +35,14 @@
 
 .bgl {
   background: linear-gradient(to right, #474ef8, #f4c5ca);
+}
+
+.bgd {
+  background: linear-gradient(to left, #4302c2, #795ac8);
+}
+
+.bgdi {
+  background: linear-gradient(to right, #19222d, #09121d);
 }
 
 /* src/styles.css */
