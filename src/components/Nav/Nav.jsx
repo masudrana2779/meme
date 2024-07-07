@@ -129,7 +129,7 @@ const Nav = () => {
               >
                 roadmap
               </Link>
-              <div className="flex space-x-2 items-center">
+              <div className="space-y-4 items-center">
                 <Link
                   to={"/"}
                   className="text-white text-[18px] leading-[26px] font-medium  w-[220px] text-center py-2 px-5 rounded-full bg_gradient1"

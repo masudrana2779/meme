@@ -9,7 +9,7 @@ const TokenomicsSection = () => {
       <div className="text-center mb-4 md:mb-20">
         <img src="/img/gr.png" className="w-full max-w-[1279px]" alt="" />
       </div>
-      <div className="bgd rounded-full p-[1px] mx-auto text-white w-max">
+      <div className="w-full truncate bgd rounded-full p-[1px] mx-auto text-white md:w-max">
         <div className="flex rounded-full px-10 py-2 bgdi items-center justify-center">
           <div className=" pr-4 border-r-2 mr-2">{copyData}</div>
           <div
