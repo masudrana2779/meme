@@ -5,7 +5,7 @@ const IntroductionSection = () => {
     <div className="text-white py-12 px-4 text-center md:mb-40 mb-10">
       <div className="relative container">
         <div className="border-[3px] rounded-[40px] px-4 md:px-28 py-20  bg-[url('/img/fbg.png')]">
-          <div className="translate-y-[-75%] mb-[-310px]">
+          <div className="md:translate-y-[-75%] md:mb-[-310px]">
             <img
               src={"/img/Polygon3.png"}
               alt="Character"

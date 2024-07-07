@@ -1,5 +1,3 @@
-import BlndrPic from "./Images/BlndrPic.png"; // Importing the BLNDR image
-
 const phases = [
   {
     title: "Phase 1",
@@ -57,7 +55,7 @@ const RoadMap = () => {
                 >
                   <div className="flex-shrink-0">
                     <img
-                      src={BlndrPic}
+                      src={"/img/BlndrPic.png"}
                       alt={`Phase ${index + 1}`}
                       className="w-32 h-32 mx-auto mb-4 md:mb-0"
                     />
