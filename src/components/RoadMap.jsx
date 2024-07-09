@@ -74,7 +74,7 @@ const RoadMap = () => {
                         } w-[1px] h-[100px] md:h-[170px] bg-white`}
                       ></div>
                     )}
-                    <div className="bgdi p-[70px] pb-16 rounded-lg">
+                    <div className="bgdi p-[30px] md:p-[70px] md:pb-16 rounded-lg">
                       <h3 className="text-xl md:text-[30px] font-semibold mb-8">
                         {phase.title}
                       </h3>
