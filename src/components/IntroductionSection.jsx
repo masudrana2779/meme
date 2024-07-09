@@ -4,12 +4,12 @@ const IntroductionSection = () => {
   return (
     <div className="text-white py-14 px-4 text-center md:mb-32 mb-10">
       <div className="relative container">
-        <div className="border-[3px] rounded-[40px] px-4 md:px-28 py-20  bg-[url('/img/fbg.png')]">
-          <div className="md:translate-y-[-75%] md:mb-[-300px]">
+        <div className="border-[3px] rounded-[40px] px-4 md:px-28 pt-0 md:pt-20 pb-10 md:pb-20  bg-[url('/img/fbg.png')]">
+          <div className="md:translate-y-[-75%] translate-y-[-60%] mb-[-60px] md:mb-[-300px]">
             <img
               src={"/img/Polygon3.png"}
               alt="Character"
-              className="w-full max-w-[497px] mx-auto h-auto object-contain"
+              className="w-full md:max-w-[497px] max-w-[160px] mx-auto h-auto object-contain"
             />
           </div>
           <h2 className="text-2xl md:text-5xl font-black mb-10">

@@ -11,9 +11,9 @@ const partners = [
 
 const Partners = () => {
   return (
-    <div className="bg-[url('/img/pbg.png')] bgt bg-no-repeat bg-cover py-[100px]">
+    <div className="bg-[url('/img/pbg.png')] bgt bg-no-repeat bg-cover py-[40px] md:py-[100px]">
       <div className="container">
-        <h2 className="text-center text-3xl md:text-6xl uppercase text-white font-bold pt-3 mb-20">
+        <h2 className="text-center text-3xl md:text-6xl uppercase text-white font-bold mb-5 md:mb-20">
           Partners
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1210px] w-full mx-auto">
