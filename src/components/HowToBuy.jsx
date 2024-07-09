@@ -27,7 +27,7 @@ const steps = [
 
 const HowToBuy = () => {
   return (
-    <div className="bg-[#14212F] relative text-white py-24 overflow-hidden">
+    <div className="bg-[#14212F] relative text-white py-10 md:py-24 overflow-hidden">
       <div className="absolute left-0 -bottom-14">
         <img src="/img/leftB.png" alt="" />
       </div>
@@ -35,13 +35,13 @@ const HowToBuy = () => {
         <img src="/img/rightT.png" alt="" />
       </div>
       <div className="container">
-        <h2 className="text-3xl md:text-6xl font-bold mb-20 text-center">
+        <h2 className="text-3xl md:text-6xl font-bold mb-5 md:mb-20 text-center">
           HOW TO BUY BLNDR
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto">
           {steps.map((step, index) => (
             <div key={index} className="bgd rounded-md p-[1px] flex">
-              <div className="bgdi p-12 rounded-md w-full">
+              <div className="bgdi p-5 md:p-12 rounded-md w-full">
                 <div className="flex h-32 items-end mb-5">
                   <img
                     src={step.icon}
