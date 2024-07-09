@@ -12,12 +12,12 @@ const HeroSection = () => {
             alt="banner_SVG.png"
           />
           <Nav />
-          <div className=" text-white pt-24 pb-8 flex flex-col md:flex-row items-center justify-between">
+          <div className=" text-white pt-5 md:pt-24 pb-8 flex flex-col md:flex-row items-center justify-between">
             <div className="text-center w-full md:w-1/2 lg:text-left mb-8 lg:mb-0">
-              <h1 className="text-3xl md:text-6xl font-black mb-9">
+              <h1 className="text-3xl md:text-6xl font-black md:mb-9">
                 THE STRONGEST <br />
               </h1>
-              <div className="mb-14 pb-1">
+              <div className=" md:mb-14  md:pb-1">
                 <h1 className="text-4xl md:text-[80px] font-black ">
                   <span className="text-pink-500">MEME </span>
                   COCKTAIL

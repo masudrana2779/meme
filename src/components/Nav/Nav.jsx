@@ -129,19 +129,19 @@ const Nav = () => {
             >
               roadmap
             </Link>
-              <div className="space-y-4 items-center">
-                <Link
-                  to={"/"}
-                  className="text-white text-[18px] leading-[26px] font-medium  w-[220px] text-center py-2 px-5 rounded-full bg_gradient1"
-                >
-                  <span>BUY ON PINKSALE</span>
-                </Link>
-                <Link
-                  to={"/"}
-                  className="text-white text-[18px] leading-[26px] font-medium  text-center py-2 px-5 rounded-full bg_gradient w-[220px]"
-                >
-                  <span>BUY NOW</span>
-                </Link>
+              <div className="">
+              <Link
+                to={"/"}
+                className="text-black rowd text-center text-[16px] leading-[38px] font-bold py-2 px-5 rounded-full bg_gradient1 cursor-pointer w-[220px]"
+              >
+                <span>BUY ON PINKSALE</span>
+              </Link> <br /> <br />
+              <Link
+                to={"/"}
+                className="text-black rowd text-[16px] leading-[38px] font-bold  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px]"
+              >
+                <span>BUY NOW</span>
+              </Link>
               </div>
             </div>
           </div>
