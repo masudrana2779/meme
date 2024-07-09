@@ -93,42 +93,42 @@ const Nav = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="p-4 inline-flex flex-col uppercase space-y-4 text-xl leading-5 font-bold">
-              <Link
-                to="Roadmap"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="tg cursor-pointer"
-              >
-                Home
-              </Link>
-              <Link
-                to="Tokenomics"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="text-white cursor-pointer"
-              >
-                About
-              </Link>
-              <Link
-                to="Tokenomics"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="text-white cursor-pointer"
-              >
-                tokenomics
-              </Link>
-              <Link
-                to="Roadmap"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="text-white cursor-pointer"
-              >
-                roadmap
-              </Link>
+            <Link
+              to="Roadmap"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="tg cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              to="Tokenomics"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              to="Tokenomics"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white cursor-pointer"
+            >
+              tokenomics
+            </Link>
+            <Link
+              to="Roadmap"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white cursor-pointer"
+            >
+              roadmap
+            </Link>
               <div className="space-y-4 items-center">
                 <Link
                   to={"/"}
