@@ -8,7 +8,7 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="">
+    <div className="py-4">
       <nav className="">
         <div className="container max-w-[1170px] mx-auto flex justify-between items-center p-4">
           <div className="">
@@ -16,7 +16,7 @@ const Nav = () => {
               <img src="/img/logo.png" alt="logo" />
             </Link>
           </div>
-          <div className="hidden md:flex items-center uppercase space-x-4 text-xl leading-5 font-bold">
+          <div className="hidden md:flex items-center uppercase space-x-[50px] text-2xl leading-5 font-semibold">
             <Link
               to="Roadmap"
               spy={true}
@@ -53,16 +53,16 @@ const Nav = () => {
             >
               roadmap
             </Link>
-            <div className="flex space-x-4 items-center">
+            <div className="flex space-x-4 items-center pl-20">
               <Link
                 to={"/"}
-                className="text-white text-center text-[18px] leading-[26px] font-medium py-2 px-5 rounded-full bg_gradient1 cursor-pointer w-[220px]"
+                className="text-black rowd text-center text-[16px] leading-[38px] font-bold py-2 px-5 rounded-full bg_gradient1 cursor-pointer w-[220px]"
               >
                 <span>BUY ON PINKSALE</span>
               </Link>
               <Link
                 to={"/"}
-                className="text-white text-[18px] leading-[26px] font-medium  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px]"
+                className="text-black rowd text-[16px] leading-[38px] font-bold  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px]"
               >
                 <span>BUY NOW</span>
               </Link>

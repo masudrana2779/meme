@@ -11,20 +11,22 @@ const partners = [
 
 const Partners = () => {
   return (
-    <div className="bg-[url('/img/pbg.png')] bgt py-24">
-      <h2 className="text-center text-3xl md:text-6xl uppercase text-white font-bold mb-8">
-        Partners
-      </h2>
-      <div className="flex flex-wrap justify-center items-center gap-4">
-        {partners.map((partner) => (
-          <div key={partner.name}>
-            <img
-              src={partner.logo}
-              alt={partner.name}
-              className="max-h-full max-w-full"
-            />
-          </div>
-        ))}
+    <div className="bg-[url('/img/pbg.png')] bgt bg-no-repeat bg-cover py-[100px]">
+      <div className="container">
+        <h2 className="text-center text-3xl md:text-6xl uppercase text-white font-bold pt-3 mb-20">
+          Partners
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1210px] w-full mx-auto">
+          {partners.map((partner) => (
+            <div key={partner.name} className="mb-[18px]">
+              <img
+                src={partner.logo}
+                alt={partner.name}
+                className="max-h-full max-w-full"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

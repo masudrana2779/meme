@@ -27,26 +27,36 @@ const steps = [
 
 const HowToBuy = () => {
   return (
-    <div className="bg-gray-900 text-white py-12">
-      <h2 className="text-center text-3xl font-bold mb-8">HOW TO BUY BLNDR</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        {steps.map((step, index) => (
-          <div key={index} className="bgd rounded-md p-[1px] flex">
-            <div className="bgdi p-6 rounded-md">
-              <div className="flex h-32 items-end mb-5">
-                <img
-                  src={step.icon}
-                  alt={step.title}
-                  className="w-full max-w-[140px]"
-                />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                <p>{step.description}</p>
+    <div className="bg-[#14212F] relative text-white py-24 overflow-hidden">
+      <div className="absolute left-0 -bottom-14">
+        <img src="/img/leftB.png" alt="" />
+      </div>
+      <div className="absolute right-0 -top-14">
+        <img src="/img/rightT.png" alt="" />
+      </div>
+      <div className="container">
+        <h2 className="text-3xl md:text-6xl font-bold mb-20 text-center">
+          HOW TO BUY BLNDR
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto">
+          {steps.map((step, index) => (
+            <div key={index} className="bgd rounded-md p-[1px] flex">
+              <div className="bgdi p-12 rounded-md w-full">
+                <div className="flex h-32 items-end mb-5">
+                  <img
+                    src={step.icon}
+                    alt={step.title}
+                    className="w-full max-w-[140px]"
+                  />
+                </div>
+                <div className="max-w-[500px] w-full">
+                  <h3 className="text-3xl rowd leading-[45px] mb-2">{step.title}</h3>
+                  <p className="mon text-xl leading-9">{step.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

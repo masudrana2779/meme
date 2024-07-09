@@ -9,17 +9,12 @@ import HeaderSection from "../../HeaderSection ";
 const Home = () => {
   return (
     <>
-      {/* <Banner /> */}
       <HeaderSection />
       <Partners />
       <MainSection />
       <HowToBuy />
       <RoadMap />
       <Disclaimer />
-      {/* <JokerCatAcademy />
-      <Roadmap />
-      <Tokenomics />
-      <Partner /> */}
     </>
   );
 };

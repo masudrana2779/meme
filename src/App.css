@@ -1,5 +1,5 @@
 .container {
-  max-width: 1350px !important;
+  max-width: 1450px !important;
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
@@ -10,11 +10,11 @@
 }
 
 .bg_gradient {
-  background: linear-gradient(to right, #00fff0, #d8ee34);
+  background: linear-gradient(to left, #00fff0, #d8ee34);
 }
 
 .bg_gradient1 {
-  background: linear-gradient(to right, #fc52b5, #34eee3);
+  background: linear-gradient(to left, #fc52b5, #34eee3);
 }
 
 .bg_gradientB {
@@ -22,15 +22,7 @@
 }
 
 .bgt {
-  background-position: top -1px center;
-}
-
-.jca_bg {
-  background: linear-gradient(
-    to right,
-    rgba(68, 77, 249, 0.1) 0%,
-    rgba(245, 198, 202, 0.1) 100%
-  );
+  background-position: top -2px center;
 }
 
 .bgl {

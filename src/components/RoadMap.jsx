@@ -39,36 +39,53 @@ const phases = [
 
 const RoadMap = () => {
   return (
-    <div className=" bgColor text-white py-12">
+    <div className=" bgColor text-white pt-[100px]">
       <div className="">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">ROAD MAP</h2>
+          <h2 className="text-3xl md:text-6xl font-bold mb-8 text-center">
+            ROAD MAP
+          </h2>
           <div className="relative">
-            <div className="absolute top-0 bottom-0 left-1/2 w-[1px] bg-gray-700 transform -translate-x-1/2"></div>
-            <div className="bg-[url('/img/rbg.png')] bg-no-repeat bg-contain bg-center">
+            <div className="bg-[url('/img/rbg.png')] bg-no-repeat bg-contain bg-center absolute top-0 left-0 w-full h-full opacity-20"></div>
+            <div className="">
               {phases.map((phase, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col relative md:flex-row items-center mb-12 ${
+                  className={`flex flex-col relative md:flex-row items-center mb-[85px] ${
                     index % 2 === 0 ? "" : "md:flex-row-reverse"
                   }`}
                 >
-                  <div className="flex-shrink-0">
+                  <div
+                    className={`flex-shrink-0 ${
+                      index % 2 === 0 ? "mr-28" : "ml-28"
+                    }`}
+                  >
                     <img
-                      src={"/img/BlndrPic.png"}
+                      src={"/img/rpic.png"}
                       alt={`Phase ${index + 1}`}
-                      className="w-32 h-32 mx-auto mb-4 md:mb-0"
+                      className=""
                     />
                   </div>
-                  <div className="bgd p-[1px] rounded-lg shadow-lg w-full md:w-1/2">
-                    <div className="bgdi p-6 rounded-lg">
-                      <h3 className="text-2xl font-semibold mb-4">
+                  <div className="bgd p-[1px] rounded-lg shadow-lg w-full md:w-1/2 relative">
+                    {phases.length - 1 > index && (
+                      <div
+                        className={`absolute -bottom-[170px] ${
+                          index % 2 === 0 ? "left-[158px]" : "right-[158px]"
+                        } w-[1px] h-[170px] bg-white`}
+                      ></div>
+                    )}
+                    <div className="bgdi p-[70px] pb-16 rounded-lg">
+                      <h3 className="text-xl md:text-[30px] font-semibold mb-8">
                         {phase.title}
                       </h3>
-                      <ul className="list-disc pl-5">
+                      <ul className="list-none">
                         {phase.tasks.map((task, taskIndex) => (
-                          <li key={taskIndex} className="mb-2">
-                            {task}
+                          <li
+                            key={taskIndex}
+                            className="mb-2 flex items-center space-x-4"
+                          >
+                            <img src="/img/dot.svg" alt="" />
+                            <span>{task}</span>
                           </li>
                         ))}
                       </ul>
