@@ -4,7 +4,7 @@ import TokenomicsSection from "./TokenomicsSection";
 
 const MainSection = () => {
   return (
-    <div className="pt-[300px] bgColor">
+    <div className="pt-[60px] md:pt-[300px] bgColor">
       <IntroductionSection />
       <VideosSection />
       <TokenomicsSection />

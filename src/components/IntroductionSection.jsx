@@ -12,7 +12,7 @@ const IntroductionSection = () => {
               className="w-full md:max-w-[497px] max-w-[160px] mx-auto h-auto object-contain"
             />
           </div>
-          <h2 className="text-2xl md:text-5xl font-black mb-10">
+          <h2 className="text-xl md:text-5xl font-black mb-10">
             FROM ALL THE MEMES TO ONE BIG MEME MIX
           </h2>
           <div className="max-w-[1050px] w-full mx-auto">
