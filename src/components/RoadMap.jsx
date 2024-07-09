@@ -39,7 +39,7 @@ const phases = [
 
 const RoadMap = () => {
   return (
-    <div className=" bgColor text-white pt-[100px]">
+    <div className=" bgColor text-white pt-10 md:pt-[100px]">
       <div className="">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-6xl font-bold mb-8 text-center">
