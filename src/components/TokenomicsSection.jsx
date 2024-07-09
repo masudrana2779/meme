@@ -3,7 +3,7 @@ const TokenomicsSection = () => {
 
   return (
     <div className="py-12 container  md:pb-40 pb-10">
-      <h2 className="text-3xl md:text-6xl font-bold mb-8 text-center text-white">
+      <h2 className="text-3xl md:text-6xl font-bold mb-8 md:mb-16 text-center text-white">
         TOKENOMICS
       </h2>
       <div className="text-center mb-4 md:mb-20">

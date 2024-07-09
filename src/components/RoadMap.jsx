@@ -1,3 +1,5 @@
+import { Element } from "react-scroll";
+
 const phases = [
   {
     title: "Phase 1",
@@ -39,6 +41,7 @@ const phases = [
 
 const RoadMap = () => {
   return (
+    <Element name="Roadmap">
     <div className=" bgColor text-white pt-10 md:pt-[100px]">
       <div className="">
         <div className="container mx-auto px-4">
@@ -98,6 +101,7 @@ const RoadMap = () => {
         </div>
       </div>
     </div>
+    </Element>
   );
 };
 
