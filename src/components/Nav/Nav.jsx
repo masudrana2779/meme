@@ -18,7 +18,7 @@ const Nav = () => {
           </div>
           <div className="hidden md:flex items-center uppercase space-x-[50px] text-2xl leading-5 font-semibold">
             <Link
-              to="Roadmap"
+              to="/"
               spy={true}
               smooth={true}
               duration={500}
@@ -27,7 +27,7 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              to="Tokenomics"
+              to="Introduction"
               spy={true}
               smooth={true}
               duration={500}
@@ -94,7 +94,7 @@ const Nav = () => {
           <div className="md:hidden">
             <div className="p-4 inline-flex flex-col uppercase space-y-4 text-xl leading-5 font-bold">
             <Link
-              to="Roadmap"
+              to="/"
               spy={true}
               smooth={true}
               duration={500}
@@ -103,7 +103,7 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              to="Tokenomics"
+              to="Introduction"
               spy={true}
               smooth={true}
               duration={500}
