@@ -1,9 +1,9 @@
-const videos = [
-  { title: "Video 1", thumbnail: "/img/v.png" },
-  { title: "Video 2", thumbnail: "/img/v.png" },
-  { title: "Video 3", thumbnail: "/img/v.png" },
-  { title: "Video 4", thumbnail: "/img/v.png" },
-];
+// const videos = [
+//   { title: "Video 1", thumbnail: "/img/v.png" },
+//   { title: "Video 2", thumbnail: "/img/v.png" },
+//   { title: "Video 3", thumbnail: "/img/v.png" },
+//   { title: "Video 4", thumbnail: "/img/v.png" },
+// ];
 
 const VideosSection = () => {
   return (
@@ -11,7 +11,7 @@ const VideosSection = () => {
       <div className="container">
         <img src="/img/vd.png" alt="" />
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="px-[180px] bg-center py-10 bg-[url('/img/fram.png')] bg-contain bg-no-repeat">
           <div className="grid grid-cols-2 md:grid-cols-2 gap-12">
             {videos.map((video, index) => (
@@ -25,7 +25,7 @@ const VideosSection = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
