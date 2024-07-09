@@ -50,8 +50,8 @@ const HowToBuy = () => {
                   />
                 </div>
                 <div className="max-w-[500px] w-full">
-                  <h3 className="text-3xl rowd leading-[45px] mb-2">{step.title}</h3>
-                  <p className="mon text-xl leading-9">{step.description}</p>
+                  <h3 className="text-xl md:text-3xl rowd leading-[45px] mb-2">{step.title}</h3>
+                  <p className="mon text-base md:text-xl leading-6 md:leading-9 font-thin">{step.description}</p>
                 </div>
               </div>
             </div>
