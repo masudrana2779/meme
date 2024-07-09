@@ -57,7 +57,7 @@ const RoadMap = () => {
                 >
                   <div
                     className={`flex-shrink-0 ${
-                      index % 2 === 0 ? "mr-28" : "ml-28"
+                      index % 2 === 0 ? "md:mr-28" : "md:ml-28"
                     }`}
                   >
                     <img
@@ -69,9 +69,9 @@ const RoadMap = () => {
                   <div className="bgd p-[1px] rounded-lg shadow-lg w-full md:w-1/2 relative">
                     {phases.length - 1 > index && (
                       <div
-                        className={`absolute -bottom-[170px] ${
-                          index % 2 === 0 ? "left-[158px]" : "right-[158px]"
-                        } w-[1px] h-[170px] bg-white`}
+                        className={`absolute -bottom-[100px] md:-bottom-[170px] ${
+                          index % 2 === 0 ? "left-[158px]" : "md:right-[158px] left-[158px]"
+                        } w-[1px] h-[100px] md:h-[170px] bg-white`}
                       ></div>
                     )}
                     <div className="bgdi p-[70px] pb-16 rounded-lg">
