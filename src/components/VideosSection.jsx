@@ -9,8 +9,11 @@ const VideosSection = () => {
   return (
     <div className=" md:mb-40 mb-10">
       <div className="container">
+        <img src="/img/vd.png" alt="" />
+      </div>
+      <div className="container">
         <div className="px-[180px] bg-center py-10 bg-[url('/img/fram.png')] bg-contain bg-no-repeat">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-12">
             {videos.map((video, index) => (
               <div key={index} className="cursor-pointer w-full">
                 <img
