@@ -4,7 +4,7 @@ import Nav from "./Nav/Nav";
 const HeroSection = () => {
   return (
     <>
-      <div className="relative bg_gradientB z-10">
+      <div className="relative bg_gradientG z-10">
         <div className="container">
           <img
             className="absolute top-0 left-0 z-[-1]"

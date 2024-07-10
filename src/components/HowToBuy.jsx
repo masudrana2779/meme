@@ -46,7 +46,7 @@ const HowToBuy = () => {
                   <img
                     src={step.icon}
                     alt={step.title}
-                    className="w-full max-w-[140px]"
+                    className="w-full max-w-[140px] -ml-2"
                   />
                 </div>
                 <div className="max-w-[500px] w-full">

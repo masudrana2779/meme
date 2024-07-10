@@ -21,6 +21,10 @@
   background: linear-gradient(to top, #161b22, #273240);
 }
 
+.bg_gradientG {
+  background: url('/img/gbg.png');
+}
+
 .bgt {
   background-position: top -2px center;
 }
