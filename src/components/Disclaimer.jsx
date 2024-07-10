@@ -4,7 +4,7 @@ const Disclaimer = () => {
       className="bg-[#26313E] pt-10 md:pt-24 pb-12 rounded-t-[90px] border-t-2 border-[rgba(255,255,255,0.5)]"
     >
       <div className="container flex flex-col md:flex-row items-start md:space-x-40">
-        <div className="mb-4 md:mb-0 md:mr-8">
+        <div className="mb-4 md:mb-0 md:mr-8 text-center w-full md:w-auto">
           <img
             src="/img/flogo.png"
             alt="BLNDR Logo"
