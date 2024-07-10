@@ -34,7 +34,7 @@ const HeroSection = () => {
               <div className="flex flex-col md:flex-row md:space-x-4">
               <Link
                 to={"/"}
-                className="text-black text-[16px] leading-[38px] font-bold  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px] rowd"
+                className="text-black text-[16px] leading-[38px] font-bold  text-center py-2 px-5 rounded-full bg_gradient cursor-pointer w-[220px] rowd mx-auto md:mx-0"
               >
                 <span>BUY NOW</span>
               </Link>
