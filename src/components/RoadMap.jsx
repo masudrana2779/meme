@@ -53,13 +53,13 @@ const RoadMap = () => {
     <Element name="Roadmap">
       <div className=" bgColor text-white pt-10 md:pt-[100px]">
         <div className="">
-          <div className="container mx-auto px-4">
+          <div className="">
             <h2 className="text-3xl md:text-6xl font-bold mb-8 text-center">
               ROAD MAP
             </h2>
             <div className="relative">
-              <div className="bg-[url('/img/rbg.png')] bg-no-repeat bg-contain bg-center absolute top-0 left-0 w-full h-full opacity-20"></div>
-              <div className="">
+              <div className="bg-[url('/img/rbg.png')] bg-no-repeat bg-contain bg-bottom absolute top-0 left-0 w-full h-full opacity-20"></div>
+              <div className="container ">
                 {phases.map((phase, index) => (
                   <div
                     key={index}
